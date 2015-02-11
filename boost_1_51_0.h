@@ -9,4 +9,9 @@
 #define BOOST_NO_CXX11_NULLPTR
 #define BOOST_NO_CXX11_SMART_PTR
 
+#ifdef F
 #undef F
+#endif
+#ifdef B1
+#undef B1
+#endif
